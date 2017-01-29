@@ -1,4 +1,4 @@
-# devportal <sub><sup>| Cloud Elements developer portal</sup></sub>
+# swiftpage-docs <sub><sup>| SwifPage Installation Guides</sup></sub>
 
 This site is based on [Jekyll](http://jekyllrb.com/), with a dash of [Twitter Bootstrap](http://themes.getbootstrap.com/products/dashboard) added.
 
@@ -22,8 +22,8 @@ _Please_, feel free to make any contributions you feel will make Cloud Elements 
 
 ```bash
 $ git clone git@github.com:cloud-elements/devportal.git
-$ cd devportal
-$ sudo gem install jekyll redcarpet jekyll-sitemap jekyll-redirect-from jekyll-youtube
+$ cd swiftpage-docs
+$ sudo gem install jekyll redcarpet
 ```
 
 ## Usage
@@ -36,46 +36,16 @@ Now browse to [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and code away!
 
 ## Site Structure
 
-Element Docs will be placed in their respective folder, e.g. Salesforce.
-The Element Docs are structured in the following way:
+Service Docs will be placed in their respective folder, e.g. Shopify.
+The Service Docs are structured in the following way:
 
 ```bash
 |-- root
   |-- docs
-    |-- elements
-      |-- element folder (e.g. Salesforce)
-        |-- element specific docs (e.g. endpoint setup, create instance)
+    |-- services
+      |-- service folder (e.g. Shopify)
+        |-- service specific docs (e.g. endpoint setup)
 ```
-
-Platform docs like Hub level documentation, Events Framework, and OAuth Proxy are located at the `docs -- platform` level:
-
-```bash
-|-- root
-  |-- docs
-    |-- platform
-      |-- event-management
-        |-- event-management specific docs (e.g. how to guides, videos)
-```
-
-Product docs like Element Builder, Mapper, Groud2Cloud, Formulas are located at the `docs -- products` level:
-
-```bash
-|-- root
-  |-- docs
-    |-- products
-      |-- element-builder
-        |-- element-builder specific docs (e.g. how to guides, videos)
-```
-
-Quick Start docs like authentication and FAQs are located at the `docs -- getstarted` level:
-
-```bash
-|-- root
-  |-- docs
-    |-- getstarted
-      |-- authentication
-```
-
 ## Conventions
 
 All documents are composed in markdown.  HTML can be used right in the markdown docs.
@@ -91,40 +61,19 @@ Pages have a block of YAML at the top that sets a few options. They are pretty s
 
 ```
 ---
-heading: Salesforce CRM
-seo: Overview | Salesforce CRM | Cloud Elements API Docs
-title: Overview
-description: Integrate Salesforce CRM into your application via the Cloud Elements APIs.
+heading: BigCommerce
+title: Endpoint Setup
 layout: docs
-breadcrumbs: /docs/elements.html
-elementId: 23
-parent: Back to Element Guides
-order: 1
-sitemap: false
----
-```
-
-here's an example of a Product YAML:
-
-```
----
-heading: Instance APIs
-seo: Instance APIs Overview | Cloud Elements API Docs
-title: Overview
-description: Find API documentation and example API calls.
-layout: docs
-platform: instances
-breadcrumbs: /docs/platform/platform-docs.html
-parent: Back to Platform Docs
-order: 1
-sitemap: false
+breadcrumbs: /index.html
+parent: Back to Guides
+order: 2
 ---
 ```
 
 ## License
 (The MIT License)
 
-Copyright © 2012-2016 Cloud Elements Inc [http://cloud-elements.com/](http://cloud-elements.com/).
+Copyright © 2012-2017 Cloud Elements Inc [http://cloud-elements.com/](http://cloud-elements.com/).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
