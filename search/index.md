@@ -1,6 +1,6 @@
 ---
 layout: searchresults
-title: Search | Cloud Elements API Docs
+title: Search
 heading: Search Results
 permalink: /search/
 sitemap: false
