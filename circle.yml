@@ -18,4 +18,4 @@ deployment:
     commands:
       - git config --global user.email 'greg+cedevportal@cloud-elements.com'
       - git config --global user.name 'cedevportal'
-      - cd _site; git init && git remote add gh "https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/cloud-elements/swiftpage-docs.git" && git checkout -b gh-pages && git add -A && git commit -m 'Live release' && git push -u gh-pages --force
+      - cd _site; git init && git remote add gh "https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/cloud-elements/swiftpage-docs.git" && git checkout -b gh-pages && git add -A && git commit -m 'Live release' && git push --set-upstream gh-pages gh-pages --force
