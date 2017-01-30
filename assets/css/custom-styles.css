@@ -509,7 +509,6 @@ hr {
 
 .docs-header {
   background-color: #252525;
-  background-image: none;
   padding: 0;
   /*To be consistant with the other page style*/
   height: inherit;
