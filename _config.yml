@@ -16,4 +16,4 @@ redcarpet:
 # url: https://developers.cloud-elements.com
 
 gems:
-  - github-pages
+  # - github-pages
