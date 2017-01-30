@@ -264,9 +264,6 @@ hr {
   margin-bottom: 0;
   height: inherit;
   background-color: #252525;
-  /*background-image: url(/assets/img/jumbo.png);
-  background-size: cover;
-  background-repeat: center center;*/
 }
 
 .title h2{
@@ -507,17 +504,14 @@ hr {
 ///////////////////////////////*/
 
 .docs-body {
-  padding-top: 0;
+  padding-top: 0 !important;
 }
 
 .docs-header {
   background-color: #252525;
-  background-image: none;
   padding: 0;
   /*To be consistant with the other page style*/
   height: inherit;
-  /*background-image: url(/assets/img/jumbo.png);
-  background-size: cover;*/
 }
 .docs-header .container{
   padding: 30px 0;
