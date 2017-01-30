@@ -263,7 +263,8 @@ hr {
 .jumbotron {
   margin-bottom: 0;
   height: inherit;
-  background-color: #252525;
+  background-color: #252525 !important;
+  background-image: none !important;
 }
 
 .title h2{
