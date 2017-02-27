@@ -5,17 +5,12 @@ layout: docs
 breadcrumbs: /index.html
 parent: Back to Guides
 order: 5
+published: false
 ---
 
 ## Endpoint Setup
 
 Follow these steps to set up a new WooCommerce Application for API integration.
-
-Requirements:
-
-Turn on the WordPress `permalinks` in `Settings > Permalinks`.
-
-See the [WooCommerce API Documentation](https://docs.woocommerce.com/document/woocommerce-rest-api/) for more information.
 
 Via a web browser go to your store front and sign in to your WP Admin Dashboard.
 ![WooCommerce Store Front](http://cloud-elements.com/wp-content/uploads/2015/03/WoocommerceAPI1.png)
@@ -42,3 +37,13 @@ Via a web browser go to your store front and sign in to your WP Admin Dashboard.
 
 9. Copy your API Key and Secret
 ![WooCommerce Connected App step 5](http://cloud-elements.com/wp-content/uploads/2015/11/WooCommerceAPI5.png)
+
+10. Under Settings, select “Permalinks”
+
+11. Select “Post Name” under Common Settings
+![WooCommerce Connected App step 6](http://cloud-elements.com/wp-content/uploads/2015/11/WooCommerceAPI6.png)
+
+12. Scroll down to Product permalink base and make sure “Default” is selected
+
+13. Click “Save Changes”
+![WooCommerce Connected App step 7](http://cloud-elements.com/wp-content/uploads/2015/11/WooCommerceAPI7.png)

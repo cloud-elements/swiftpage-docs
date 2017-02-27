@@ -9,9 +9,9 @@ order: 5
 
 ## Endpoint Setup
 
-Follow these steps to set up a Shopify application with the endpoint. Via a web browser, go to: [http://www.shopify.com/](http://www.shopify.com/)and sign up for a store. Your store name will be needed to provision the Shopify Element. If you are a developer building a store for a client, then you will need to acquire the shop name from your client.
+Follow these steps to set up a Shopify application with the endpoint. Via a web browser, go to:  [https://app.shopify.com/services/partners/auth/login](https://app.shopify.com/services/partners/auth/login) and log in to your account or sign up to become a Shopify Partner.
 
-Next go to: [https://app.shopify.com/services/partners/auth/login](https://app.shopify.com/services/partners/auth/login) to become a Shopify Partner.
+More information about the Shopify partner program can be found in the [Shopify Documentation](https://help.shopify.com/api/getting-started).
 
 1. Once signed up, from the Dashboard, click “Create App”.
 ![Shopify Connected App step 1](http://cloud-elements.com/wp-content/uploads/2014/10/Shopify3.png)
