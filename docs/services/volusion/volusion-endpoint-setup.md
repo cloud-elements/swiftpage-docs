@@ -37,7 +37,7 @@ Follow these steps to create a New Volusion Application for API integration. Via
 9. Copy the URL returned from the “Run” command.  It will be needed to provision the Volusion Element.
 ![Volusion Connected App step 8](img/VolusionAPI8.png)
 
-An example of the URL copied in the previous step can be seen below:
+An example of the URL copied in the previous step can be seen below: 
 
 `http://otnqw.rakrt.servertrust.com/net/WebService.aspx?Login=volusion@acmedata.com&EncryptedPassword=64F3C0572DB54CB36951010E7200391418E79AC678214B366FBD4E&EDI_Name=GenericOrders`
 
