@@ -1,0 +1,88 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Guides</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link href="/assets/css/toolkit-light.css" rel="stylesheet">
+  <link href="/assets/css/docs.css" rel="stylesheet">
+  <link href="/assets/css/application.css" rel="stylesheet">
+  <link href="/assets/css/custom-styles.css" rel="stylesheet">
+  <style>
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+  </style>
+</head>
+<body class="docs-body">
+  <div class="docs-header docs-bgcolor" id="content">
+    <div class="container">
+      <h1>Ecwid</h1>
+    </div>
+  </div>
+  <div class="container docs-content">
+    <!-- <h1 id="contents">Contents</h1> -->
+    <!-- Sub Nav -->
+    <ul id="markdown-toc">
+      <li><strong>Ecwid Docs</strong></li>
+      
+        
+          <li class="active actived">
+        
+
+        
+            <a href="/docs/services/ecwid/ecwid-endpoint-setup.html">Endpoint Setup</a>
+        
+        </li>
+      
+      
+        <a href="/index.html"> Back to Guides</a>
+      
+    </ul>
+    <!-- END Sub Nav -->
+    <h2 id="endpoint-setup">Endpoint Setup</h2>
+
+<p>Follow these steps to set up a new Ecwid Application for API integration. Via a web browser go to: <a href="https://my.ecwid.com/cp/#register">https://my.ecwid.com/cp/#register</a> and sign up. It must be a paid account.</p>
+
+<p>Once setup, please login.</p>
+
+<ol>
+<li><p>Make note of your Store ID as it will be needed to provision an Element Instance.
+<img src="http://cloud-elements.com/wp-content/uploads/2015/02/EcwidAPI1.png" alt="Ecwid Connected App step 1"></p></li>
+<li><p>Next the Legacy API keys will need to be retrieved.  In order to do retrieve them, you must be <strong>logged in</strong> to your store.</p></li>
+</ol>
+
+<p>Once you are logged in, navigate to a Legacy API Key URL:</p>
+
+<p><a href="https://my.ecwid.com/cp/CP.html#legacy_api">https://my.ecwid.com/cp/CP.html#legacy_api</a></p>
+
+<p>Copy the Order and Product API secrets
+<img src="img/ecwid-legacy-api-1.png" alt="Ecwid Legacy API"></p>
+
+<p>Input the following URL in the <code>ION Cannon endpoint URL</code> field:</p>
+
+<p><code>https://api.cloud-elements.com/elements/api-v2/events/ecwid</code></p>
+
+<p><img src="img/ecwid-legacy-api-events.png" alt="Ecwid Legacy API ION Cannon URL"></p>
+
+<p>Click <code>Save</code>.</p>
+
+  </div>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/chart.js"></script>
+  <script src="/assets/js/tablesorter.min.js"></script>
+  <script src="assets/js/toolkit.js"></script>
+  <script src="/assets/js/application.js"></script>
+  <script>
+    $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
+  </script>
+</body>
+</html>

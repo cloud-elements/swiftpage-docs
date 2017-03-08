@@ -1,0 +1,93 @@
+[
+  
+     {
+       
+            "heading"    : "",
+            "title" : "404",
+            "description"     : "",
+            "url"      : "/404.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "BigCommerce",
+            "title" : "Endpoint Setup",
+            "description"     : "",
+            "url"      : "/docs/services/bigcommerce/bigcommerce-endpoint-setup.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Ecwid",
+            "title" : "Endpoint Setup",
+            "description"     : "",
+            "url"      : "/docs/services/ecwid/ecwid-endpoint-setup.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Etsy",
+            "title" : "Register as a Consumer",
+            "description"     : "",
+            "url"      : "/docs/services/etsy/etsy-endpoint-setup.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Search Results",
+            "title" : "Search",
+            "description"     : "",
+            "url"      : "/search/"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Suported Services",
+            "title" : "Currently Supported Services | Swiftpage",
+            "description"     : "Find guides for our currently supported services.",
+            "url"      : "/"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "",
+            "title" : "",
+            "description"     : "",
+            "url"      : "/search.json"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Shopify",
+            "title" : "Endpoint Setup",
+            "description"     : "",
+            "url"      : "/docs/services/shopify/shopify-endpoint-setup.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "Volusion",
+            "title" : "Endpoint Setup",
+            "description"     : "",
+            "url"      : "/docs/services/volusion/volusion-endpoint-setup.html"
+       
+     } ,
+  
+     {
+       
+            "heading"    : "WooCommerce",
+            "title" : "Endpoint Setup",
+            "description"     : "",
+            "url"      : "/docs/services/woocommerce/woocommerce-endpoint-setup.html"
+       
+     } 
+  
+]

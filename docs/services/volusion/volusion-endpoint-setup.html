@@ -1,0 +1,112 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Guides</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link href="/assets/css/toolkit-light.css" rel="stylesheet">
+  <link href="/assets/css/docs.css" rel="stylesheet">
+  <link href="/assets/css/application.css" rel="stylesheet">
+  <link href="/assets/css/custom-styles.css" rel="stylesheet">
+  <style>
+    body {
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
+    }
+  </style>
+</head>
+<body class="docs-body">
+  <div class="docs-header docs-bgcolor" id="content">
+    <div class="container">
+      <h1>Volusion</h1>
+    </div>
+  </div>
+  <div class="container docs-content">
+    <!-- <h1 id="contents">Contents</h1> -->
+    <!-- Sub Nav -->
+    <ul id="markdown-toc">
+      <li><strong>Volusion Docs</strong></li>
+      
+        
+          <li class="active actived">
+        
+
+        
+            <a href="/docs/services/volusion/volusion-endpoint-setup.html">Endpoint Setup</a>
+        
+        </li>
+      
+      
+        <a href="/index.html"> Back to Guides</a>
+      
+    </ul>
+    <!-- END Sub Nav -->
+    <h2 id="endpoint-setup">Endpoint Setup</h2>
+
+<p>Follow these steps to create a New Volusion Application for API integration. Via a web browser go to: <a href="http://www.volusion.com/">http://www.volusion.com/</a> and setup a store. Once setup, please login.</p>
+
+<ol>
+<li><p>From the Dashboard, click “Manage Store”
+<img src="img/VolusionAPI1.png" alt="Volusion Connected App step 1"></p></li>
+<li><p>Login to your storefront.
+<img src="img/VolusionAPI2.png" alt="Volusion Connected App step 2"></p></li>
+<li><p>From the dashboard, click “Inventory” and then click “Import/Export”.
+<img src="img/VolusionAPI3.png" alt="Volusion Connected App step 3"></p></li>
+<li><p>Click “Volusion API”
+<img src="img/VolusionAPI4.png" alt="Volusion Connected App step 4"></p></li>
+<li><p>Make sure you enable public XML for both “Featured Products” and “All Products”</p></li>
+<li><p>Click “Save
+<img src="img/VolusionAPI5.png" alt="Volusion Connected App step 5"></p></li>
+<li><p>Next, scroll down to the Generic orders section, under Accounts and click “Run”.
+<img src="img/VolusionAPI6.png" alt="Volusion Connected App step 6"></p></li>
+<li><p>Click “Run”
+<img src="img/VolusionAPI7.png" alt="Volusion Connected App step 7"></p></li>
+<li><p>Copy the URL returned from the “Run” command.  It will be needed to provision the Volusion Element.
+<img src="img/VolusionAPI8.png" alt="Volusion Connected App step 8"></p></li>
+</ol>
+
+<p>An example of the URL copied in the previous step can be seen below: </p>
+
+<p><code>http://otnqw.rakrt.servertrust.com/net/WebService.aspx?Login=volusion@acmedata.com&amp;EncryptedPassword=64F3C0572DB54CB36951010E7200391418E79AC678214B366FBD4E&amp;EDI_Name=GenericOrders</code></p>
+
+<p>The beginning portion of the URL is your store URL – <code>http://otnqw.rakrt.servertrust.com</code>. Then the login email – <a href="mailto:volusion@acmedata.com">volusion@acmedata.com</a>, and finally the EncryptedPassword – <code>64F3C0572DB54CB36951010E7200418E79AC678214B366FBD4E</code></p>
+
+<h3 id="need-help-finding-your-encrypted-password">Need Help finding your Encrypted Password?</h3>
+
+<ol>
+<li><p>From the Dashboard, click &quot;Manage Store&quot;
+<img src="img/VolusionAPI1.png" alt="Volusion Connected App step 1"></p></li>
+<li><p>Login to your storefront.
+<img src="img/VolusionAPI2.png" alt="Volusion Connected App step 2"></p></li>
+<li><p>From the dashboard, click &quot;Inventory&quot; and then click &quot;Import/Export&quot;.
+<img src="img/VolusionAPI3.png" alt="Volusion Connected App step 3"></p></li>
+<li><p>Click &quot;Volusion API&quot;
+<img src="img/VolusionAPI4.png" alt="Volusion Connected App step 4"></p></li>
+<li><p>Click &quot;Get Help&quot; then &quot;Get help with this page&quot; in the top right corner.
+<img src="img/encrypted-password-1.png" alt="Volusion Encrypted Password 1"></p></li>
+<li><p>In the pop up window, click &quot;Volusion API Integration Help&quot;.
+<img src="img/encrypted-password-2.png" alt="Volusion Encrypted Password 2"></p></li>
+<li><p>In the new window, click on the lower box labeled &quot;URL with Query String and General Information for Importing and Exporting&quot;.
+<img src="img/encrypted-password-3.png" alt="Volusion Encrypted Password 3"></p></li>
+<li><p>In this box, you will find your encrypted password.
+<img src="img/encrypted-password-4.png" alt="Volusion Encrypted Password 4"></p></li>
+</ol>
+
+  </div>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/chart.js"></script>
+  <script src="/assets/js/tablesorter.min.js"></script>
+  <script src="assets/js/toolkit.js"></script>
+  <script src="/assets/js/application.js"></script>
+  <script>
+    $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
+  </script>
+</body>
+</html>
