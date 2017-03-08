@@ -41,7 +41,7 @@ An example of the URL copied in the previous step can be seen below:
 
 `http://otnqw.rakrt.servertrust.com/net/WebService.aspx?Login=volusion@acmedata.com&EncryptedPassword=64F3C0572DB54CB36951010E7200391418E79AC678214B366FBD4E&EDI_Name=GenericOrders`
 
-The beginning portion of the URL is your store URL – `http://otnqw.rakrt.servertrust.com`. Then the login email – volusion@acmedata.com, and finally the EncryptedPassword – `64F3C0572DB54CB36951010E7200418E79AC678214B366FBD4E&EDI`
+The beginning portion of the URL is your store URL – `http://otnqw.rakrt.servertrust.com`. Then the login email – volusion@acmedata.com, and finally the EncryptedPassword – `64F3C0572DB54CB36951010E7200418E79AC678214B366FBD4E`
 
 ### Need Help finding your Encrypted Password?
 
